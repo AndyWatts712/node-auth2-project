@@ -15,7 +15,7 @@ server.use(
     })
 )
 
-server.use('/api', authRouter)
+// server.use('/api', authRouter)
 
 server.get('/', (req, res) => {
     res.json({api: 'up'})
